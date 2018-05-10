@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+
+for format in html docx; do
+    pandoc --standalone --from markdown --to ${format} -o resume.${format} -c style.css --metadata title="Joey Gibson" 00_short.md 99_footer.md
+    pandoc --standalone --from markdown --to ${format} -o resume_full.${format} -c style.css --metadata title="Joey Gibson" 00_short.md 10_long.md 99_footer.md
+done
+
+# pandoc --standalone --from markdown --to html -o resume.html -c style.css --metadata title="Joey Gibson" 00_short.md 99_footer.md
+
+
+# pandoc --standalone --from markdown --to html -o resume_full.html -c style.css --metadata title="Joey Gibson" 00_short.md 10_long.md 99_footer.md
+
