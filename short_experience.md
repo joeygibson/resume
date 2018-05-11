@@ -1,14 +1,3 @@
-----
-
-> Languages: Go, Java, Kotlin, Clojure, Scala, Ruby, Python, Bash, Rust, C\
-> [github.com/joeygibson](https://github.com/joeygibson) • [linkedin.com/in/joeygibson](https://www.linkedin.com/in/joeygibson)
-
-----
-
-Profile
---------------------
-I have been developing software professionally since 1990, but I actually fell in love with computers and software development in 1983, when I was 13. I began with a Commodore VIC-20, its BASIC interpreter and a book. Ever since, I’ve been a voracious consumer of technical information and computer languages. In 2001 I began speaking at conferences and user group meetings and in 2002, I was able to share my passion with an even larger audience when I co-authored a book called [Ant Developers Handbook](https://www.amazon.com/Ant-Developers-Handbook-Alan-Williamson/dp/0672324261). I have written several pieces of software that I have both sold on the iOS App Store and released as open source, including a module that was included in Ruby on Rails. One of my major strengths is my ability to quickly learn new technologies and put them into practice.
-
 Experience
 --------------------
 

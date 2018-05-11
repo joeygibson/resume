@@ -1,12 +1,11 @@
 #!/usr/bin/env bash
 
+short_files="header.md os_contribs.md short_experience.md footer.md"
+long_files="header.md os_contribs.md short_experience.md long_experience.md footer.md"
+
 for format in html docx; do
-    pandoc --standalone --from markdown --to ${format} -o resume.${format} -c style.css --metadata title="Joey Gibson" 00_short.md 99_footer.md
-    pandoc --standalone --from markdown --to ${format} -o resume_full.${format} -c style.css --metadata title="Joey Gibson" 00_short.md 10_long.md 99_footer.md
+    pandoc --standalone --from markdown --to ${format} -o resume.${format} -c style.css --metadata title="Joey Gibson" ${short_files}
+    pandoc --standalone --from markdown --to ${format} -o resume_full.${format} -c style.css --metadata title="Joey Gibson" ${long_files}
 done
 
-# pandoc --standalone --from markdown --to html -o resume.html -c style.css --metadata title="Joey Gibson" 00_short.md 99_footer.md
-
-
-# pandoc --standalone --from markdown --to html -o resume_full.html -c style.css --metadata title="Joey Gibson" 00_short.md 10_long.md 99_footer.md
 
