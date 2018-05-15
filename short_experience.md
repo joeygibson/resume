@@ -4,20 +4,27 @@ Experience
 2013 - present
 : **Cisco Systems, Inc.** -- Senior Architect
 
-* Member of the architecture team, responsible for design and development across both on-premises and cloud products in Go, Java, Kotlin, Scala, Clojure, Ruby, and Bash.
-* Designed and built applications to move data between on-prem and cloud systems.
-* Designed and built prototype for new automated host classification product offering. Assisting product team to turn prototype into product, running in an AWS cluster.
-* Worked on next generation FlowCollector 5000 NetFlow collection engine. This project was in C.
-* Worked on FlowCollector LE, which transmits pared-down Netflow from on-prem to cloud, for our first cloud product.
+* Member of the architecture team, designing and building apps in Go, Java, Kotlin, Scala, Clojure, Ruby, and Bash.
+* One of three main developers working on [Elsy](https://github.com/cisco/elsy), a unified build tool for Stealthwatch products (and an open source project).
+* Designed and built
+  * a prototype in Go for new a product offering; assisting product teams turning prototype into producton in Go, Scala, Java, JavaScript.
+  * a Go app to read protobuf records from a 0MQ socket and write them to compressed files.
+  * a Go app to transfer protobuf files from on-prem to cloud.
+  * a Go app to receive protobuf files from on-prem.
+  * a Kotlin app to read protobuf files and store the records into Parquet files.
+  * a Go app to export system configuration from Stealthwatch command module for upload to cloud.
+  * a prototype Netflow collector in Java using the LMax Distruptor.
+* Worked on next generation NetFlow collection engine. This project was in C.
+* Worked on pared-down NetFlow collection engine to transmit data to our first cloud offering.
+* Worked on various aspects of the Stealthwatch suite of programs, most of which are in Java.
 * Worked with geographically distributed teams in Prague, Paris, Rolle, Raleigh, and Boxborough.
-* Introduced Docker to the Stealthwatch product group in 2014. Now all our products use it heavily.
-* Technical mentor and code-reviewer for several teams.
+* Technical mentor and code-reviewer for multiple teams.
 
 2008 - 2013
 : **GlobalScholar** -- Senior Architect
 
 * Specification, architecture, and development in Java and Flex across both front and back of the system.
-* Database schema definition and migration scripts. 
+* Database schema definition and migration scripts.
 * Implemented and managed build process and CI server. Our build tool was Maven,. I implemented the Maven release-plugin’s features in Ant, which gave us the flexibility that Maven didn’t provide.
 * Filled in for department director in his absence.
 * Technical mentor and code-reviewer for other team members.
