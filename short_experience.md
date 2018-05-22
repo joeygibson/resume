@@ -14,6 +14,7 @@ Experience
   * a Kotlin app to read protobuf files and store the records into Parquet files.
   * a Go app to export system configuration from Stealthwatch command module for upload to cloud.
   * a prototype Netflow collector in Java using the LMax Distruptor.
+* Wrote an AWS Lambda service in Go for moving files from S3 to another component in the system.
 * Worked on next generation NetFlow collection engine. This project was in C.
 * Worked on pared-down NetFlow collection engine to transmit data to our first cloud offering.
 * Worked on various aspects of the Stealthwatch suite of programs, most of which are in Java.
