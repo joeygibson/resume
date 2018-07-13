@@ -7,7 +7,7 @@ Experience
 * Member of the architecture team, designing and building apps in Go, Java, Kotlin, Scala, Clojure, Ruby, and Bash.
 * One of three main developers working on [Elsy](https://github.com/cisco/elsy), a unified build tool for Stealthwatch products (and an open source project).
 * Designed and built
-  * a prototype in Go for new a product offering; assisting product teams turning prototype into producton in Go, Scala, Java, JavaScript.
+  * a prototype in Go for a new product offering; working with product team turning prototype into producton.
   * a Go app to read protobuf records from a 0MQ socket and write them to compressed files.
   * a Go app to transfer protobuf files from on-prem to cloud.
   * a Go app to receive protobuf files from on-prem.
